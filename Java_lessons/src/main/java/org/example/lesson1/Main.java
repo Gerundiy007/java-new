@@ -39,7 +39,7 @@ public class Main {
 
         // && (и) - || или - ! (НЕТ)
         //char
-        // emoji = "\\uD83D\\uDE00";
+        String emoji = "\\uD83D\\uDE00";
 
         double a = 10.343 + 22.213;
         double v = 12.546 - 6.32132;
@@ -49,12 +49,12 @@ public class Main {
         double n4 = n3 % n2;
 
 
-        System.out.println(a);
-        System.out.println(v);
-        System.out.println(n);
-        System.out.println(n2);
-        System.out.println(n3);
-        System.out.println(n4);
+        System.out.println("Сложение =" + a);
+        System.out.println("Вычитание =" + v);
+        System.out.println("Умножение =" + n);
+        System.out.println("Умножение n =" + n2);
+        System.out.println("Деление =" + n3);
+        System.out.println("Процент =" + n4);
         System.out.println(res);
         System.out.println(emoji);
     }
