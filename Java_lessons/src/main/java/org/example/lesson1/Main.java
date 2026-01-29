@@ -25,6 +25,8 @@ public class Main {
 
         // указание дробного числа
         var res = 10/3.0;
+        
+
 
         //округление
 
@@ -37,9 +39,23 @@ public class Main {
 
         // && (и) - || или - ! (НЕТ)
         //char
-        char emoji = 'a';
+        // emoji = "\\uD83D\\uDE00";
+
+        double a = 10.343 + 22.213;
+        double v = 12.546 - 6.32132;
+        double n = 4125 * 532;
+        double n2 = n * n;
+        double n3 = n2 / n;
+        double n4 = n3 % n2;
 
 
-        System.out.println(intRes);
+        System.out.println(a);
+        System.out.println(v);
+        System.out.println(n);
+        System.out.println(n2);
+        System.out.println(n3);
+        System.out.println(n4);
+        System.out.println(res);
+        System.out.println(emoji);
     }
 }
