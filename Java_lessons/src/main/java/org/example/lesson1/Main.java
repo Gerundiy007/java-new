@@ -16,16 +16,15 @@ public class Main {
         // + - * / %
 
         var result = byteVar + shortVar;
-        var result1 = longVar/ byteVar;
+        var result1 = longVar / byteVar;
 
         // дает 0 (при целых числах)
 
-        var result2 = 1000/1000000;
+        var result2 = 1000 / 1000000;
 
 
         // указание дробного числа
-        var res = 10/3.0;
-        
+        var res = 10 / 3.0;
 
 
         //округление
