@@ -10,9 +10,9 @@ public class OOP {
         emp1.salary = 5000;
 
         Emoloyee emp2 = new Emoloyee();
-        emp1.name = "Игорь";
-        emp1.age = 22;
-        emp1.salary = 4000;
+        emp2.name = "Игорь";
+        emp2.age = 22;
+        emp2.salary = 4000;
 
         Emoloyee emp3 = new Emoloyee("Денис",34,10000);// Конструктор
     }
