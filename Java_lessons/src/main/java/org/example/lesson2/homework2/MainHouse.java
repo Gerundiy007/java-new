@@ -16,7 +16,7 @@ public class MainHouse {
 
         House house3 = new House(145);
         House house4 = new House("д. Пушкина,у. Колотушкино 11",18,true,2000);
-
+        //213
 
     }
 }
