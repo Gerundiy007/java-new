@@ -13,7 +13,7 @@
 
 package org.example.homework5;
 
-public interface Emoloyee {
+public interface Employee {
     String getName();
 
     String getTask();
@@ -23,4 +23,8 @@ public interface Emoloyee {
     double getSalary();
 
     void setTask(String taskName);
+
+    void setSalary(double salary);
+
+    void setName(String name);
 }

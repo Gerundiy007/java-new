@@ -1,16 +1,22 @@
 package org.example.homework5;
 
-public class BE implements Emoloyee{
+public class BE implements Employee {
+    private String name;
     private String taskName;
+    private double salary;
+
     public BE() {
     }
-    public BE(String taskName) {
+
+    public BE(String name, String taskName, double salary) {
+        this.name = name;
         this.taskName = taskName;
+        this.salary = salary;
     }
 
     @Override
     public String getName() {
-        return "Ярослав";
+        return name;
     }
 
     @Override
@@ -20,17 +26,24 @@ public class BE implements Emoloyee{
 
     @Override
     public void doTask() {
-        System.out.println("Взять задачу "+taskName+ " в работу");
-
+        System.out.println("Взять задачу " + taskName + " в работу");
     }
 
     @Override
     public double getSalary() {
-        return 99999999;
+        return salary;
     }
 
     @Override
     public void setTask(String taskName) {
         this.taskName = taskName;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 }
