@@ -1,4 +1,4 @@
-package org.example.homework5;
+package org.example.lesson4.homework4;
 
 public class EmployeeExecutor {
     public static void main(String[] args) {

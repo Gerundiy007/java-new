@@ -11,7 +11,7 @@
 //в) вывести – имя работника + таска + зп;
 
 
-package org.example.homework5;
+package org.example.lesson4.homework4;
 
 public interface Employee {
     String getName();

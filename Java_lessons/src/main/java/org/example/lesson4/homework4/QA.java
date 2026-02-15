@@ -1,14 +1,15 @@
-package org.example.homework5;
+package org.example.lesson4.homework4;
 
-public class BA implements Employee {
+public class QA implements Employee {
+
     private String name;
     private String taskName;
     private double salary;
 
-    public BA() {
+    public QA() {
     }
 
-    public BA(String name, String taskName, double salary) {
+    public QA(String name, String taskName, double salary) {
         this.name = name;
         this.taskName = taskName;
         this.salary = salary;
