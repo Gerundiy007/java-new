@@ -28,5 +28,4 @@ public enum CurrencyList {
     public double getRate() {
         return rate;
     }
-
 }

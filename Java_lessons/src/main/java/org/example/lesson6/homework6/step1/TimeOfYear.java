@@ -4,14 +4,12 @@ package org.example.lesson6.homework6.step1;
 import java.time.LocalDate;
 
 public enum TimeOfYear {
-
     WINTER,
     SPRING,
     SUMMER,
     AUTUMN;
 
     public static TimeOfYear from(LocalDate date) {
-
         final int month = date.getMonthValue();
 
         if (month == 12 || month == 1 || month == 2) {
