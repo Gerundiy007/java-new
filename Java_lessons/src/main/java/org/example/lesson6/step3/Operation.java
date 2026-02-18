@@ -1,4 +1,4 @@
-package ru.lessons.lesson6.step3;
+package org.example.lesson6.step3;
 
 public enum Operation {
     ADD("Сумма"),

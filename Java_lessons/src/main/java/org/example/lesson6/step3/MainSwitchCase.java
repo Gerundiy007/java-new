@@ -1,13 +1,13 @@
-package ru.lessons.lesson6.step3;
+package org.example.lesson6.step3;
 
-import ru.lessons.lesson6.step1.Status;
+import org.example.lesson6.step1.Status;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-import static ru.lessons.lesson6.step1.Status.ERROR;
-import static ru.lessons.lesson6.step1.Status.SUCCESS;
-import static ru.lessons.lesson6.step3.Operation.*;
+import static org.example.lesson6.step1.Status.ERROR;
+import static org.example.lesson6.step1.Status.SUCCESS;
+import static org.example.lesson6.step3.Operation.*;
 
 public class MainSwitchCase {
     public static void main(String[] args) {
