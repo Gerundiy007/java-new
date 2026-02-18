@@ -12,7 +12,7 @@ public enum TimeOfYear {
 
     public static TimeOfYear from(LocalDate date) {
 
-        int month = date.getMonthValue();
+        final int month = date.getMonthValue();
 
         if (month == 12 || month == 1 || month == 2) {
             return WINTER;
