@@ -1,0 +1,6 @@
+package org.example.lesson8.step5;
+
+public interface Validator {
+    boolean validate(String str, boolean ignoreCase);
+    void log(String message, LogLevel logLevel);
+}
