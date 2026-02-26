@@ -1,5 +1,6 @@
 package org.example.lesson8.homework8;
 
+//2. Дан массив чисел [1, 5, 8, 11, 0, -5, 13, 81, 100] посчитать количество и сумму четных и нечетных чисел;
 public class EvenOrOdd {
     public static void main(String[] args) {
         final int[] numbers = {1, 5, 8, 11, 0, -5, 13, 81, 100};
