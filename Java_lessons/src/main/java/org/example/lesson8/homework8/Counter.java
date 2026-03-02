@@ -8,7 +8,7 @@ public class Counter {
         int sum = 0;
 
         for (int i = 0; i < number.length(); i++) {
-            sum += number.charAt(i) - '0';
+            sum += number.charAt(i) - '0'; // преобразуем символ в цифру и прибавляем к сумме
         }
 
         System.out.println("Кол-во цифр = " + number.length());
