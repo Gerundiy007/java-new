@@ -70,6 +70,26 @@ public class CarValidator {
         System.out.println("\nНайден автомобиль:");
         System.out.println(car);
 
+        final var anyMatch = updatedCarsPrice.stream()
+                .anyMatch(c ->
+                        c.getPrice() > 2_000_000 &&
+                                c.getOwners() == 1 &&
+                                c.getYear() > 2016
+                );
+        System.out.println("\n----------------------------------------------------");
+
+        System.out.println("Есть ли хотя бы одно авто подходящее под условие: " + anyMatch);
+
+        final var allMatch = updatedCarsPrice.stream()
+                .allMatch(c ->
+                        c.getPrice() > 2_000_000 &&
+                                c.getOwners() == 1 &&
+                                c.getYear() > 2016
+                );
+
+        System.out.println("Все ли авто соответствуют условию: " + allMatch);
+
+
         final var noneMatch = updatedCarsPrice.stream()
                 .noneMatch(c ->
                         c.getPrice() > 2_000_000 &&
